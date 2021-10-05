@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;  
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#start {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/start.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+#start h1 {
+  font-size: 300%;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#start h4 {
+  margin-bottom: 20px;
+}
+
+#nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nav img {
+  width: 40px;
+  margin-right: 70px;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+#nav a {
+  padding: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+#navh {
+  padding-left: 70px;
+  display: flex;
+}
+
+#aboutme {
+  padding: 5vw 0;
+  text-align: center;
+}
+
+#aboutme h1 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#aboutme p {
+  letter-spacing: 2px;
+  font-size: 150%;
+}
+
+#bottom {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-top: -100px;
+  z-index: 99;
+  position: relative;
+}
+
+.headlines {
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 80px;
+}
+
+#portfoliodiv {
+  padding-top: 80px;
+} 
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-width: 100vw;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#contactme {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form input {
+  width: 30vw;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  background-color: rgb(236, 236, 236);
+  font-size: 120%;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+textarea {
+  width: 30vw;
+  padding: 10px;
+  border: none;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: rgb(236, 236, 236);
+  resize: none;
+  font-size: 120%;
+  outline: none;
+  font-weight: 300;
+}
+
+#send {
+  width: 10vw;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 200ms all;
+  font-weight: bold;
+}
+
+#send:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+#message {
+  height: 200px;
+}
+
+footer {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  letter-spacing: 1px;
+}
+
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    #bottom {
+      display: none;
+    }
+  }

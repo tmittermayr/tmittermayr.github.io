@@ -242,4 +242,7 @@ footer {
     #nav img {
       margin-right: 20px;
     }
+    #start {
+      background-position: 50%;
+    }
   }

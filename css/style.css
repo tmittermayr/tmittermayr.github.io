@@ -15,11 +15,12 @@ body {
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 #start {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   background-image: url(../img/start.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -232,15 +233,24 @@ footer {
     }
     #nav {
       padding-top: 20px;
+      background-color: white;
+      padding-bottom: 20px;
+      justify-content: center;
     }
     #navh {
       padding-left: 20px;
       font-size: 85%;
     }
+    #navh a {
+      color: black;
+    }
     #start h1 {
       font-size: 200%;
       width: 80vw;
       text-align: center;
+    }
+    #start {
+      height: 100vh;
     }
     #nav img {
       display: none;

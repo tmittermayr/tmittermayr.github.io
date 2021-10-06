@@ -245,6 +245,6 @@ footer {
     }
     #start {
       background-position: 50%;
-        background-attachment: scroll;
+      background-attachment: scroll !important;
     }
   }

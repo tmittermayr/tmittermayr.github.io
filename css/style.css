@@ -29,6 +29,9 @@ html {
   align-items: center;
   flex-direction: column;
   color: white;
+  @media (max-width: @iphone-screen) {
+      background-attachment: scroll;
+  }
 }
 
 #start h1 {

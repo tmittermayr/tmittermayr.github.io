@@ -220,7 +220,11 @@ footer {
       display: none;
     }
     #contactme h1 {
-      margin-top: 150px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    #portfoliodiv {
+      margin-bottom: 100px;
     }
     form input {
       width: 80vw;
@@ -238,8 +242,9 @@ footer {
       justify-content: center;
     }
     #navh {
-      padding-left: 20px;
+      padding-left: 0;
       font-size: 85%;
+      text-align: center;
     }
     #navh a {
       color: black;
@@ -255,9 +260,19 @@ footer {
     #nav img {
       display: none;
     }
+    #nav > a {
+      display: none;
+    }
     #start {
       background-position: 50%;
       background-attachment:scroll;
     }
-
+    form input {
+      padding: 15px;
+      font-size: 100%;
+    }
+    textarea {
+      padding: 15px;
+      font-size: 100%;
+    }
   }

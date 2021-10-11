@@ -186,6 +186,13 @@ footer {
   letter-spacing: 1px;
 }
 
+#contactme a {
+  font-size: 120%;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
   
   /* Create four equal columns that sits next to each other */
   .column {

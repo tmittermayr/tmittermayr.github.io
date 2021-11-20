@@ -193,6 +193,23 @@ footer {
   letter-spacing: 2px;
   margin: 10px 0;
 }
+
+
+/* Video */
+#videodiv {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#vid1 {
+  width: 60vw;
+  height: auto;
+}
+
+
+
   
   /* Create four equal columns that sits next to each other */
   .column {
@@ -214,6 +231,9 @@ footer {
     .column {
       flex: 50%;
       max-width: 50%;
+    }
+    #vid1 {
+      width: 90vw;
     }
   }
   
@@ -281,5 +301,8 @@ footer {
     textarea {
       padding: 15px;
       font-size: 100%;
+    }
+    #vid1 {
+      width: 95vw;
     }
   }

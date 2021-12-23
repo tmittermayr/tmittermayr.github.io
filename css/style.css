@@ -33,6 +33,7 @@ html {
 #startdes {
   margin-left: 10vw;
   text-transform: uppercase;
+  z-index: 10;
 }
 
 #startdes h4 {
@@ -71,6 +72,7 @@ html {
   right: 0;
   top: 0;
   height: 100vh;
+  z-index: 1;
 }
 
 #startimg2 {
@@ -281,16 +283,29 @@ footer {
     }
   }
 
-  @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 1500px) {
     #startimg {
       width: 50vw;
       height: auto;
     }
   }
 
-  @media screen and (max-width: 1450px) {
+  @media screen and (max-width: 1100px) {
     #startimg {
       opacity: 0;
+    }
+    #start {
+      background-image: url(../img/backgroundme.jpg);
+    }
+    #startdes {
+      color: white;
+    }
+    #socials {
+      opacity: 1;
+    }
+    #socials img {
+      filter: invert(1);
+      margin: 0 10px;
     }
   }
 
